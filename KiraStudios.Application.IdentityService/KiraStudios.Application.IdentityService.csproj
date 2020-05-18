@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KiraStudios.Application.MapperBase\KiraStudios.Application.MapperBase.csproj" />
+    <ProjectReference Include="..\KiraStudios.Application.Services.IdentityContracts\KiraStudios.Application.Services.IdentityContracts.csproj" />
+    <ProjectReference Include="..\KiraStudios.Domain.IdentityModel\KiraStudios.Domain.IdentityModel.csproj" />
+    <ProjectReference Include="..\KiraStudios.Domain.IdentityRepository\KiraStudios.Domain.IdentityRepository.csproj" />
+    <ProjectReference Include="..\KiraSudios.Application.IdentityViewModel\KiraSudios.Application.IdentityViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

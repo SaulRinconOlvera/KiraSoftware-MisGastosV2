@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KiraStudios.Application.IdentityService\KiraStudios.Application.IdentityService.csproj" />
+    <ProjectReference Include="..\KiraStudios.Application.Services.IdentityContracts\KiraStudios.Application.Services.IdentityContracts.csproj" />
+    <ProjectReference Include="..\KiraStudios.Application.Services.TokenContracts\KiraStudios.Application.Services.TokenContracts.csproj" />
+    <ProjectReference Include="..\KiraStudios.Application.Services.UbicationContracts\KiraStudios.Application.Services.UbicationContracts.csproj" />
+    <ProjectReference Include="..\KiraStudios.Application.TokenService\KiraStudios.Application.TokenService.csproj" />
+    <ProjectReference Include="..\KiraStudios.Application.UbicationService\KiraStudios.Application.UbicationService.csproj" />
+  </ItemGroup>
+
+</Project>

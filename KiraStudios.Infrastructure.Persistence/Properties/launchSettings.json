@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "KiraStudios.Infrastructure.Persistence": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ConnectionString": "Data Source=DESKTOP-MOL9SJU\\SQLEXPRESS;Initial Catalog=KiraStudios;Integrated Security=True"
+      }
+    }
+  }
+}

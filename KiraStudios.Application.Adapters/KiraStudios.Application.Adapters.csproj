@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KiraStudios.Application.TokenViewModel\KiraStudios.Application.TokenViewModel.csproj" />
+    <ProjectReference Include="..\KiraStudios.Application.UbicationViewModel\KiraStudios.Application.UbicationViewModel.csproj" />
+    <ProjectReference Include="..\KiraStudios.Domain.IdentityModel\KiraStudios.Domain.IdentityModel.csproj" />
+    <ProjectReference Include="..\KiraStudios.Domain.TokenModel\KiraStudios.Domain.TokenModel.csproj" />
+    <ProjectReference Include="..\KiraStudios.Domain.UbicationModel\KiraStudios.Domain.UbicationModel.csproj" />
+    <ProjectReference Include="..\KiraSudios.Application.IdentityViewModel\KiraSudios.Application.IdentityViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KiraStudios.Domain.EntityBase\KiraStudios.Domain.EntityBase.csproj" />
+    <ProjectReference Include="..\KiraStudios.Domain.RepositoryBase\KiraStudios.Domain.RepositoryBase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contract\" />
+    <Folder Include="Implementation\" />
+  </ItemGroup>
+
+</Project>

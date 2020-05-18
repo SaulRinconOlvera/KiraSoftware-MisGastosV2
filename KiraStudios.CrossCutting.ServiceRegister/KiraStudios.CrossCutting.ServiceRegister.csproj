@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KiraSolutions.Infrastructure.Configuration\KiraSolutions.Infrastructure.Configuration.csproj" />
+    <ProjectReference Include="..\KiraStudios.Application.Adapters\KiraStudios.Application.Adapters.csproj" />
+    <ProjectReference Include="..\KiraStudios.Application.Services.Register\KiraStudios.Application.Services.Register.csproj" />
+    <ProjectReference Include="..\KiraStudios.Infrastructure.Respositories.Register\KiraStudios.Infrastructure.Respositories.Register.csproj" />
+  </ItemGroup>
+
+</Project>
